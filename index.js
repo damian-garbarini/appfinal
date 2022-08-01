@@ -9,13 +9,13 @@ const nodemailer = require("nodemailer");
 
 // conecto app a la base de datos 
 
-const conexion = mysql.createConnection({
+/* const conexion = mysql.createConnection({
     host: process.env.HOST,
     user: process.env.USER,
     password: process.env.PASSWORD,
     port: process.env.PORTDTB,
     database: process.env.DATABASE
-});
+}); 
 
 //conecto la base de datos
 const conectar = (
@@ -23,7 +23,7 @@ const conectar = (
         if(error) throw error;
         console.log("Conecte la base de datos")
     })
-);
+);*/
 
 //Configuracion de middelwares
 app.use(express.json());
